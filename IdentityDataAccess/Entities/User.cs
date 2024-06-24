@@ -8,11 +8,11 @@ namespace IdentityDataAccess.Entities
 {
     public class User
     {
-        public Guid UserId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string UserName { get; set; }
-        public string Email { get; set; }
+        public Guid UserId { get; set; } 
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
         public Role UserRole { get; set; }
         public Guid? BoutiqueId { get; set; }
         public string RefreshToken { get; set; } = string.Empty;
@@ -30,4 +30,4 @@ namespace IdentityDataAccess.Entities
 
 
 }
-}
+

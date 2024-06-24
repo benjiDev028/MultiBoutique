@@ -1,0 +1,15 @@
+D:\multi-tech\IdentityApi\IdentityDataAccess\bin\Debug\net8.0\IdentityDataAccess.deps.json
+D:\multi-tech\IdentityApi\IdentityDataAccess\bin\Debug\net8.0\IdentityDataAccess.runtimeconfig.json
+D:\multi-tech\IdentityApi\IdentityDataAccess\bin\Debug\net8.0\IdentityDataAccess.dll
+D:\multi-tech\IdentityApi\IdentityDataAccess\bin\Debug\net8.0\IdentityDataAccess.pdb
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.csproj.AssemblyReference.cache
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.AssemblyInfoInputs.cache
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.AssemblyInfo.cs
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.csproj.CoreCompileInputs.cache
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.sourcelink.json
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.dll
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\refint\IdentityDataAccess.dll
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.pdb
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\IdentityDataAccess.genruntimeconfig.cache
+D:\multi-tech\IdentityApi\IdentityDataAccess\obj\Debug\net8.0\ref\IdentityDataAccess.dll
