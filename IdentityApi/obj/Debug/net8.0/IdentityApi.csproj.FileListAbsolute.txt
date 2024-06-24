@@ -30,3 +30,4 @@ D:\multi-tech\IdentityApi\IdentityApi\obj\Debug\net8.0\refint\IdentityApi.dll
 D:\multi-tech\IdentityApi\IdentityApi\obj\Debug\net8.0\IdentityApi.pdb
 D:\multi-tech\IdentityApi\IdentityApi\obj\Debug\net8.0\IdentityApi.genruntimeconfig.cache
 D:\multi-tech\IdentityApi\IdentityApi\obj\Debug\net8.0\ref\IdentityApi.dll
+D:\multi-tech\IdentityApi\IdentityApi\obj\Debug\net8.0\IdentityApi.sourcelink.json
