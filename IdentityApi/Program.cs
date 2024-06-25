@@ -1,5 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using IdentityDataAccess;
+using IdentityBusinessLogic.Profiles;
+using IdentityDataAccess.Repositories.Interfaces;
+using IdentityDataAccess.Repositories.Implementations;
+using IdentityBusiniessLogic.Services.Interfaces;
+using IdentityBusiniessLogic.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +12,14 @@ builder.Services.AddDbContext<UserContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
 x => x.MigrationsAssembly("IdentityDataAccess")));
 
+
+//add le mapping 
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+builder.Services.AddScoped<IUserRepository, UserRepository>()
+                .AddScoped<IUserService, UserService>();
+                
 
 // Add services to the container.
 

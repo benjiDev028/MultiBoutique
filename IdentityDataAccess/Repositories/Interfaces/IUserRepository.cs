@@ -1,4 +1,5 @@
 ﻿using IdentityDataAccess.Entities;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,5 @@ namespace IdentityDataAccess.Repositories.Interfaces
         Task<User> UpdateAsync(User user);
         Task<bool> UpdatePasswordAsync(Guid id, byte[] hashPassword, byte[] saltPassword);
         Task DeleteAsync(Guid id);
-
-
-
     }
 }

@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusiniessLogic.csproj": {
-                "projectPath": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusiniessLogic.csproj"
+              "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusinessLogic.csproj": {
+                "projectPath": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusinessLogic.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -98,12 +102,12 @@
         }
       }
     },
-    "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusiniessLogic.csproj": {
+    "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusiniessLogic.csproj",
-        "projectName": "IdentityBusiniessLogic",
-        "projectPath": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusiniessLogic.csproj",
+        "projectUniqueName": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusinessLogic.csproj",
+        "projectName": "IdentityBusinessLogic",
+        "projectPath": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\IdentityBusinessLogic.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "D:\\multi-tech\\IdentityApi\\IdentityBusiniessLogic\\obj\\",
         "projectStyle": "PackageReference",
@@ -142,6 +146,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -225,6 +233,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"

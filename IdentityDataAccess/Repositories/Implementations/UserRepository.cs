@@ -9,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace IdentityDataAccess.Repositories.Implementations
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository :IUserRepository
     {
+        /// <summary>
+        /// injection de de dependance de la base de donnee
+        /// </summary>
         private readonly UserContext _UserContext;
 
         public UserRepository(UserContext userContext)
