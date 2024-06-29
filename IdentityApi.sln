@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityApi", "IdentityApi\IdentityApi.csproj", "{F124BD4B-7695-4EDA-A834-F6DBAAAFCE7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityBusiniessLogic", "IdentityBusiniessLogic\IdentityBusiniessLogic.csproj", "{CCE23E72-2013-4933-A742-62CA7DF359BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityBusinessLogic", "IdentityBusiniessLogic\IdentityBusinessLogic.csproj", "{CCE23E72-2013-4933-A742-62CA7DF359BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityDataAccess", "IdentityDataAccess\IdentityDataAccess.csproj", "{96E79123-2D0F-4E4A-9E8B-5570B0E55FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityDataAccess", "IdentityDataAccess\IdentityDataAccess.csproj", "{96E79123-2D0F-4E4A-9E8B-5570B0E55FF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

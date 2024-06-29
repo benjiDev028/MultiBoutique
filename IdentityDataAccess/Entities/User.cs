@@ -13,12 +13,12 @@ namespace IdentityDataAccess.Entities
         public string LastName { get; set; } = string.Empty;
         public string Username { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public Role UserRole { get; set; }
+        public string UserRole { get; set; }
         public Guid? BoutiqueId { get; set; }
-        public string RefreshToken { get; set; } = string.Empty;
+        public string? RefreshToken { get; set; } = string.Empty;
         public byte[]? PasswordHash { get; set; }
         public byte[]? PasswordSalt { get; set; }
-        public int ConfirmationCode { get; set; }
+        public int? ConfirmationCode { get; set; }
     }
 
     public enum Role

@@ -55,22 +55,42 @@ namespace IdentityBusiniessLogic.Services.Implementations
         public async Task<List<UserDto>> GetAllAsync()
         {
             var Users = await _userRepository.GetAllAsync();
+            if(Users  == null)
+            {
+                throw new NotFoundException("no users found");
+            }
             return  _mapper.Map<List<UserDto>>(Users);
         }
 
-        public Task<UserDto> GetByEmailAsync(string email)
+        public  async Task<UserDto> GetByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            
+            var User = await _userRepository.GetByEmailAsync(email);
+            if(User == null)
+            {
+                throw new NotFoundException(" there is not user with this email");
+            }
+            return _mapper.Map<UserDto>(User);
         }
 
-        public Task<UserDto> GetByIdAsync(Guid id)
+        public  async Task<UserDto> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var User = await _userRepository.GetByIdAsync(id);
+            if (User == null)
+            {
+                throw new NotFoundException(" there is not user with this Id");
+            }
+            return _mapper.Map<UserDto>(User);
         }
 
-        public Task<UserDto> GetByUsernameAsync(string username)
+        public async Task<UserDto> GetByUsernameAsync(string username)
         {
-            throw new NotImplementedException();
+            var User = await _userRepository.GetByUsernameAsync(username);
+            if (User == null)
+            {
+                throw new NotFoundException(" there is not user with this username");
+            }
+            return _mapper.Map<UserDto>(User);
         }
 
         public Task<UserDto> UpdateAsync(UserDto user)
